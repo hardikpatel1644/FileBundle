@@ -1,0 +1,7 @@
+parameters:
+#    oxind_file.example.class: Oxind\FileBundle\Example
+
+services:
+#    oxind_file.example:
+#        class: %oxind_file.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

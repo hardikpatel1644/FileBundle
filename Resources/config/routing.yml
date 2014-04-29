@@ -1,0 +1,6 @@
+oxind_file_list:
+    pattern:  /file
+    defaults: { _controller: OxindFileBundle:Default:index }
+oxind_file_upload:
+    pattern:  /file/upload
+    defaults: { _controller: OxindFileBundle:Default:upload }

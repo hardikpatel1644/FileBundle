@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Action</th>
+    </tr>
+    {% for files in asFiles %}    
+    <tr>
+        <td>{{ files.name }}</td>            
+        <td>{{ files.path }}</td>
+        <td><a href="{{ url('oxind_file_list', {'id': files.id }) }}">Delete</a></td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="{{ url('oxind_file_upload') }}">Add Image</a>
